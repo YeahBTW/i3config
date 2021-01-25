@@ -208,7 +208,7 @@ bindsym $mod+Shift+x exec i3lock
 bindsym $mod+Print exec --no-startup-id xfce4-screenshooter
 
 #quick app launcher
-set $launcher "Lauch: [D]iscord, [B]rave, [T]hunar, [V]SCodium, [J]oplin, [S]team"
+set $launcher "Lauch: [D]iscord, [B]rave, [T]hunar, [V]SCodium, [J]oplin, [S]team, [L]ibrewolf"
 mode $launcher {
 	bindsym d exec discord
 	bindsym b exec brave
@@ -216,6 +216,7 @@ mode $launcher {
 	bindsym v exec vscodium
 	bindsym j exec joplin-desktop
 	bindsym s exec steam
+    bindsym l exec librewolf
 	bindsym Escape mode "default"
 	bindsym $mod+m mode "default"
 	bindsym Return mode "default"
